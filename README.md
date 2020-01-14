@@ -6,7 +6,9 @@ Welcome to GitHub—where millions of developers work together on software. Read
 
 Download the Lab Guide to your workstation
 ```
+cd ~/
 git clone https://github.com/tkinsoon/microservices-enablement.git
+cd microservices-enablement
 ```
 
 ## Lab 1 - Container 101
