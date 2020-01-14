@@ -1,6 +1,11 @@
-# Lab 1 - Container 101
+# Lab 1 - Docker 101
 
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+In this lab, you will need to:
+<ul>
+  <li>Create a Dockerfile to copy the dependencies into the base image</li>
+  <li>Build a new Docker Image with the Dockerfile</li>
+  <li>Run the Docker container on your local workstation</li>
+</ul>
 
 ## Prerequisites
 
