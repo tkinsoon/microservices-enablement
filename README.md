@@ -28,6 +28,6 @@ This lab walks you through deploying the container(s) with the created image to 
 
 ## Lab 3 - PKS 101
 
-This lab consists of **TWO** parts. Part I provides you the steps to setup your PKS on the Google Cloud Platform (GCP). Once the setup is done, you will need to create a new PKS clsuter in Part II, and deploy the container(s) to the newly created cluster (same as Lab 2)
+This lab consists of **TWO** parts: Part I provides you the steps to setup your PKS on the Google Cloud Platform (GCP). Once the setup is done, you will need to create a new PKS clsuter in Part II, and deploy the container(s) to the newly created cluster (same as Lab 2)
 
 [Click here to start your lab](./labs/03-lab3.md)
