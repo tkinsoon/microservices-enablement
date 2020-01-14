@@ -2,8 +2,11 @@
 
 Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
 
+## Prerequisites
+
+Download the Lab Guide to your workstation
 ```
-<p>Hello World! I’m [username]. This is my website!</p>
+git clone https://github.com/tkinsoon/microservices-enablement.git
 ```
 
 ## Lab 1 - Container 101
