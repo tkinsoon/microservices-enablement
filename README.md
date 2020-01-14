@@ -4,8 +4,8 @@ The labs walk you through creating a docker image on a local machine using Virtu
 
 ## Prerequisites
 
-The lab guide is created based on the environment running on Linux workstation. 
-Before we start the lab, you need to download the Lab Guide to your workstation
+We assume you run the lab on your Linux workstation. <br> 
+Before you start the lab, you need to download the Lab Guide to your workstation
 ```
 cd ~/
 git clone https://github.com/tkinsoon/microservices-enablement.git
