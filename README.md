@@ -12,7 +12,7 @@ git clone https://github.com/tkinsoon/microservices-enablement.git
 cd microservices-enablement
 ```
 
-## Lab 1 - Container 101
+## Lab 1 - Docker 101
 
 This lab walks you through creating a docker image followed by running the container on your local machine
 
