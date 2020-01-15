@@ -1,5 +1,12 @@
 # Lab 0 - Prerequisites
 
+Before you install the Google Cloud SDK and setup the Jumpbox, you need to ensure the following steps are completed:
+<ul>
+  <li>A Registered GCP account
+  <li>Tea
+  <li>Milk
+</ul>
+
 ## Section 1 - Install and Configure **Google Cloud SDK**
 
 Verify that your **gcloud CLI** is pointing to the correct GCP project by running:
