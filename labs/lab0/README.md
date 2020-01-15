@@ -71,7 +71,7 @@ gcloud config list
 ```
 The ```gcloud compute instances list``` command will now produce a list of all the VMs in your project (i.e. just the jumpbox).
 
-### The environment file
+### Create the Environment file
 In the ubuntu home directory on your jumpbox, create a hidden file named .env to store variables, the values of which describe your specific environment. Customize the .env file to suit your target environment before continuing.
 
 Take the template .env file below and substitute in the proper values for your GCP project:
