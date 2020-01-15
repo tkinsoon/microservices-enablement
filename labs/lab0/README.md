@@ -1,7 +1,7 @@
 # Lab 0 - Prerequisites
 
 ## Section 1 - Install and Configure **Google Cloud SDK**
-Verify that your gcloud CLI is pointing to the correct GCP project by running:
+Verify that your **gcloud CLI** is pointing to the correct GCP project by running:
 
 ```
 gcloud config list
@@ -19,9 +19,9 @@ gcloud compute instances create "jumpbox" \
   --zone us-central1-a
 ```
 
-After some time, the gcloud CLI will output some information about the jumpbox that it created.
+After some time, the **gcloud CLI** will output some information about the jumpbox that it created.
 
-For simplicity, regardless of your geographical region, you will use us-central1-a. Read for more information about Google Cloud regions and zones.
+For simplicity, regardless of your geographical region, you will use **us-central1-a**. Read for more information about [Google Cloud regions and zones](https://cloud.google.com/compute/docs/regions-zones/#available).
 
 The jumpbox needs a relatively large hard drive (200GB) so that in later labs you can use the space for storing backup data.
 
@@ -39,7 +39,7 @@ Once you are on the jumpbox, perform the following:
 ```
 gcloud config list
 ```
-Remember, you are now logged in to the jumpbox as the ubuntu user. You will observe that your Google Cloud config/context here is different to what we observed from your local machine. The project for your new VM has been set accurately by means of association. Conversely you are now logged in to Google Cloud using a default service account which does not have the level of privilege we require. For an example of a command that will fail in this context, try running gcloud compute instances list.
+Remember, you are now logged in to the jumpbox as the ubuntu user. You will observe that your Google Cloud config/context here is different to what we observed from your local machine. The project for your new VM has been set accurately by means of association. Conversely you are now logged in to Google Cloud using a default service account which does not have the level of privilege we require. For an example of a command that will fail in this context, try running ```gcloud compute instances list```.
 
 To address this we must repeat the steps we used when we logged in to Google Cloud from our local machine:
 ```
@@ -51,7 +51,7 @@ Re-run the following command to validate the account has been altered:
 ```
 gcloud config list
 ```
-The gcloud compute instances list command will now produce a list of all the VMs in your project (i.e. just the jumpbox).
+The ```gcloud compute instances list``` command will now produce a list of all the VMs in your project (i.e. just the jumpbox).
 
 ### The environment file
 In the ubuntu home directory on your jumpbox, create a hidden file named .env to store variables, the values of which describe your specific environment. Customize the .env file to suit your target environment before continuing.
