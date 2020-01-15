@@ -2,9 +2,8 @@
 
 Before you install the Google Cloud SDK and setup the Jumpbox, you need to ensure the following steps are completed:
 <ul>
-  <li>A Registered GCP account
-  <li>Tea
-  <li>Milk
+  <li>A Registered GCP account - If not please register the [GCP](https://cloud.google.com/) with your Google Email ID, please share with your instrucutor your Email ID once the GCP account is created.
+  <li>A New GCP Project added into your GCP account - You should see a new project assigned to you from the drop-down list at the top left corner of the GCP main console. Please inform your instructor if you do not see any new project from the list.
 </ul>
 
 ## Section 1 - Install and Configure **Google Cloud SDK**
