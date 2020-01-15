@@ -107,3 +107,9 @@ sudo apt update
 sudo apt install unzip jq
 ```
 Additional commands will be installed in subsequent labs.
+
+### Download the Lab Files
+```
+git clone https://github.com/tkinsoon/microservices-enablement.git
+cd microservices-enablement
+```
