@@ -9,11 +9,6 @@ We created a GCP project for you and at this point you hopefully have the inform
 
 [Click here to setup your jumphost on GCP](./labs/lab0)
 
-```
-cd ~/
-git clone https://github.com/tkinsoon/microservices-enablement.git
-cd microservices-enablement
-```
 
 ## Lab 1 - Docker 101
 
