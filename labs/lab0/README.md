@@ -1,11 +1,13 @@
 # Lab 0 - Prerequisites
 
+## Section 1 - Install and Configure **Google Cloud SDK**
 Verify that your gcloud CLI is pointing to the correct GCP project by running:
 
 ```
 gcloud config list
 ```
 
+## Section 2 - Setup your Jumpbox
 ### Create the jumpbox
 Run the following command to create a new jumpbox VM in your project.
 
