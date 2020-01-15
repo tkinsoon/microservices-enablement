@@ -1,10 +1,22 @@
 # Lab 0 - Prerequisites
 
 ## Section 1 - Install and Configure **Google Cloud SDK**
+
 Verify that your **gcloud CLI** is pointing to the correct GCP project by running:
 
 ```
 gcloud config list
+```
+Eg.
+```
+$ sudo gcloud config list
+[compute]
+region = us-central1
+zone = us-central1-a
+[core]
+account = tuckkin@gmail.com
+disable_usage_reporting = True
+project = piv-4a2da3f2-a1b1-c7bf0f621b15
 ```
 
 ## Section 2 - Setup your Jumpbox
