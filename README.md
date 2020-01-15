@@ -2,10 +2,12 @@
 
 The Microservices Enablement Training Programme comes with the Lab Guide to give you further practical experience in creating docker image, deploying the application in microservices, and also setting up the kubernete cluster with PKS.
 
-## Prerequisites
+## Lab 0 - Prerequisites
 
-We assume you run the lab on your Linux workstation. <br> 
-Before you start the lab, you need to download the Lab Guide to your workstation.
+This lab will walk you through setting up a jumpbox in your GCP project. We created a GCP project for you and at this point you hopefully have the information from your instructor, if not, please ask.
+
+[Click here to start your lab](./labs/lab0)
+
 ```
 cd ~/
 git clone https://github.com/tkinsoon/microservices-enablement.git
