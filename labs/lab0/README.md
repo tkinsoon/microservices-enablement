@@ -10,7 +10,7 @@ Before you install the Google Cloud SDK and setup the Jumpbox, you need to ensur
 
 Install the **gcloud CLI** by referring to the [Quickstarts](https://cloud.google.com/sdk/docs/quickstarts), select the appropriate **Quickstart** section based on the OS running on your workstation.
 
-Verify that your **gcloud CLI** is pointing to the correct GCP project by running:
+Once the **gcloud CLI** is installed and configured, verify your **gcloud CLI** is pointing to the correct GCP project by running:
 
 ```
 gcloud config list
