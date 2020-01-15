@@ -1,3 +1,5 @@
+# Lab 0 - Prerequisites
+
 Verify that your gcloud CLI is pointing to the correct GCP project by running:
 
 ```
