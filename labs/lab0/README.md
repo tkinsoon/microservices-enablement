@@ -6,7 +6,9 @@ Before you install the Google Cloud SDK and setup the Jumpbox, you need to ensur
   <li>A New GCP Project added into your GCP account - You should see a new project assigned to you from the drop-down list at the top left corner of the GCP main console. Please inform your instructor if you do not see any new project from the list.
 </ul>
 
-## Section 1 - Install and Configure **Google Cloud SDK**
+## Section 1 - Install and Configure Google Cloud SDK
+
+Install the **gcloud CLI** by referring to the [Quickstarts](https://cloud.google.com/sdk/docs/quickstarts), select the appropriate **Quickstart** section based on the OS running on your workstation.
 
 Verify that your **gcloud CLI** is pointing to the correct GCP project by running:
 
