@@ -117,5 +117,4 @@ Additional commands will be installed in subsequent labs.
 ### 6. Download the Lab Files
 ```
 git clone https://github.com/tkinsoon/microservices-enablement.git
-cd microservices-enablement
 ```
