@@ -75,6 +75,10 @@ Now, you are ready to run your Docker container
 ```
 sudo docker run -it --rm -p 80:8080 docker101
 ```
+Check your jumphost's External IP address via the [VM Compute Engine](https://console.cloud.google.com/compute/instances) under the GCP project given by the instructor. Copy the External IP address and paste it as the URL to your web browser.
+
+You should see the HTML page as below:
+
 
 ### 4. Access to the Web Application
 
