@@ -59,7 +59,7 @@ Once you are on the jumpbox, perform the following:
 ```
 gcloud config list
 ```
-Remember, **you are now logged in to the jumpbox as the ubuntu user**. You will observe that your Google Cloud config/context here is different to what we observed from your own local machine. The project for your new VM has been set accurately by means of association. Conversely you are now logged in to Google Cloud using a default service account which does not have the level of privilege we require. For an example of a command that will fail in this context, try running ```gcloud compute instances list```.
+**REMEMBER, you are now logged in to the jumpbox as the ubuntu user**. You will observe that your Google Cloud config/context here is different to what we observed from your own local machine. The project for your new VM has been set accurately by means of association. Conversely you are now logged in to Google Cloud using a default service account which does not have the level of privilege we require. For an example of a command that will fail in this context, try running ```gcloud compute instances list```.
 
 To address this we must repeat the steps we used when we logged in to Google Cloud from our local machine:
 ```
