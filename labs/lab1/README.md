@@ -75,6 +75,8 @@ Now, you are ready to run your Docker container
 ```
 sudo docker run -it --rm -p 80:8080 docker101
 ```
+There is port mapping of ```-p 80:8080``` in the arguments. Tomcat exposes the HTTP service with the port 8080. Port 80 is the port exposed at your jumphost, which means any HTTP request to the jumphost with port 80 will be forwarded to the container with the port 8080.
+
 Check your jumphost's External IP address via the [VM instances](https://console.cloud.google.com/compute/instances) under the GCP project given by your instructor. Copy the External IP address and paste it as the URL to your web browser.
 
 You should see the HTML page as below:
