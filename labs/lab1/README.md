@@ -5,12 +5,38 @@ In this lab, you will need to:
 - Build a new Docker Image with the Dockerfile
 - Run the Docker container on your local workstation
 
-## Prerequisites
+### Prerequisites
 
 You need to setup your jumpbox on GCP, if not please go to [Lab 0 - Prerequisites](./labs/lab0)
 
-## 1. Install Docker Runtime
+### 1. Install Docker Runtime
+Setup the Docker repository:
+```
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
 
+Install Docker Engine
+```
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+Verify that Docker Engine is installed correctly by running the **hello-world** image
+```
+sudo docker run hello-world
+```
+This command downloads a test image and runs it in a container. When the container runs, it prints an informational message and exits.
 
 ## 2. Verify the Dockerfile
 
