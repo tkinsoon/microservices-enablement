@@ -1,34 +1,24 @@
 # Lab 1 - Docker 101
 
 In this lab, you will need to:
-<ul>
-  <li>Create a Dockerfile to copy the dependencies into the base image</li>
-  <li>Build a new Docker Image with the Dockerfile</li>
-  <li>Run the Docker container on your local workstation</li>
-</ul>
+- Create a Dockerfile to copy the dependencies into the base image
+- Build a new Docker Image with the Dockerfile
+- Run the Docker container on your local workstation
 
 ## Prerequisites
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+You need to setup your jumpbox on GCP, if not please go to [Lab 0 - Prerequisites](./labs/lab0)
 
-[Click here to start your Lab](./labs/01-lab1.md)
-
-## Lab 2 - Kubernetes 101
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
-
-## Lab 3 - PKS 101
-
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
+## 1. Install Docker Runtime
 
 
-## Repositories
+## 2. Verify the Dockerfile
 
-Right now, we’re in your first GitHub **repository**. A repository is like a folder or storage space for your project. Your project's repository contains all its files such as code, documentation, images, and more. It also tracks every change that you—or your collaborators—make to each file, so you can always go back to previous versions of your project if you make any mistakes.
 
-This repository contains three important files: The HTML code for your first website on GitHub, the CSS stylesheet that decorates your website with colors and fonts, and the **README** file. It also contains an image folder, with one image file.
+## 3. Build and run your first Docker Image
 
-## Describe your project
+
+## 4. Access to the Web Application
 
 You are currently viewing your project's **README** file. **_README_** files are like cover pages or elevator pitches for your project. They are written in plain text or [Markdown language](https://guides.github.com/features/mastering-markdown/), and usually include a paragraph describing the project, directions on how to use it, who authored it, and more.
 
