@@ -67,6 +67,37 @@ gcloud auth login
 ```
 Follow the on-screen prompts. This time round, as we are connected to a headless Linux instance without a local browser, we will need to copy-paste the URL into a local browser in order to select the account you have registered for use with Google Cloud. Additionally, you will need to copy-paste the verification code back into your jumpbox session to complete the login sequence.
 
+Eg.
+```
+ubuntu@jumpbox1:~$ gcloud auth login
+
+You are running on a Google Compute Engine virtual machine.
+It is recommended that you use service accounts for authentication.
+
+You can run:
+
+  $ gcloud config set account `ACCOUNT`
+
+to switch accounts if necessary.
+
+Your credentials may be visible to others with access to this
+virtual machine. Are you sure you want to authenticate with
+your personal account?
+
+Do you want to continue (Y/n)?  y
+
+Go to the following link in your browser:
+
+    https://accounts.google.com/o/oauth2/auth?code_challenge=IrrtlTFttK4w7sov9XBtjzHN2xEZvYBdfyR2JeAyTSM&prompt=select_account&code_challenge_method=S256&access_type=offline&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&client_id=32555940559.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth
+
+
+Enter verification code: 4/vQHQuZVeguxdIcVTPVBc4gAgVo6NtWShF3fDHUsCCTC5Uqd-OxLocJY
+
+You are now logged in as [tuckkin@gmail.com].
+Your current project is [piv-4a2da3f2-a1b1-c7bf0f621b15].  You can change this setting by running:
+  $ gcloud config set project PROJECT_ID
+```
+
 Re-run the following command to validate the account has been altered:
 ```
 gcloud config list
