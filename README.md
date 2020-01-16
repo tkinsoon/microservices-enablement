@@ -1,4 +1,4 @@
-# Microservices Enablement Lab Assessment
+# Microservices Enablement Lab Assessment Guide
 
 The Microservices Enablement Training Programme comes with the Lab Guide to give you further practical experience in creating docker image, deploying the application in microservices, and also setting up the kubernete cluster with PKS.
 
