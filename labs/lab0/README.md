@@ -74,7 +74,11 @@ gcloud config list
 The ```gcloud compute instances list``` command will now produce a list of all the VMs in your project (i.e. just the jumpbox).
 
 ### 4. Create the Environment file
-In the ubuntu home directory on your jumpbox, create a hidden file named .env to store variables, the values of which describe your specific environment. Customize the .env file to suit your target environment before continuing.
+In the ubuntu home directory on your jumpbox, create a hidden file named .env to store variables, 
+```
+vi ~/.env
+```
+the values of which describe your specific environment. Customize the .env file to suit your target environment before continuing.
 
 Take the template .env file below and substitute in the proper values for your GCP project:
 ```
@@ -95,7 +99,7 @@ Request New Refresh Token
 Place the resulting token in the above template as the value for the variable PIVNET_TOKEN
 Before continuing, ask your instructor to validate the contents of your .env file.
 
-Now that we have the .env file with our critical variables, we need to ensure that these get set into the shell, both now and every subsequent time the ubuntu user connects to the jumpbox.
+Now that we have the .env file with our critical variables, save it and exit from your text editor. We need to ensure that these get set into the shell, both now and every subsequent time the ubuntu user connects to the jumpbox.
 ```
 source ~/.env
 echo "source ~/.env" >> ~/.bashrc
