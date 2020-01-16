@@ -79,8 +79,9 @@ Check your jumphost's External IP address via the [VM instances](https://console
 
 You should see the HTML page as below:
 ![docker101](/images/docker101.png)
+
 The hostname is the IP address of your jumphost.
 
 Congratulations! You have completed this lab! In the next labs, you will notice the varies of the hostname from the HTML page everytime you refresh your web browser due to the multiple containers from the same Docker image running in the Kubernetes cluster, you will find out more in the next labs!
 
-You may now press ```Ctrl + C``` command to stop running the container from your jumphost
+You may now press ```Ctrl + C``` command to stop running the container from your jumphost.
