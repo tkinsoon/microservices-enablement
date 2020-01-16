@@ -78,7 +78,7 @@ sudo docker run -it --rm -p 80:8080 docker101
 Check your jumphost's External IP address via the [VM instances](https://console.cloud.google.com/compute/instances) under the GCP project given by your instructor. Copy the External IP address and paste it as the URL to your web browser.
 
 You should see the HTML page as below:
-![docker101](./images/docker101.png)
+![docker101](/images/docker101.png)
 The hostname is the IP address of your jumphost.
 
 Congratulations! You have completed this lab! In the next labs, you will notice the varies of the hostname from the HTML page everytime you refresh your web browser due to the multiple containers from the same Docker image running in the Kubernetes cluster, you will find out more in the next labs!
