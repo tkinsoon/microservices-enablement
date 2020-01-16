@@ -43,14 +43,16 @@ sudo docker run hello-world
 ```
 This command downloads a test image and runs it in a container. When the container runs, it prints an informational message and exits.
 
-## 2. Verify the Dockerfile
+### 2. Verify the Dockerfile
 ```
-~/microservices-enablement/labs/lab1
+cd ~/microservices-enablement/labs/lab1
 ```
 You should see the **two** files under the lab1 folder: **Dockerfile** and **container101.war**. The **Dockerfile** is a text document in YAML that contains all the commands a user could call on the command line to assemble an image. The **container101.war** is WAR file with JSP and HTML pages as the dependency files to build our Docker image.
 ```
 cat Dockerfile
 ```
+The comments in the Dockerfile give you a better idea on what are the steps to be executed when creating a new Docker image.
+In short, the new docker image relies on the base image with Tomcat pre-installed, which is available from Docker Hub as the public docker image repository, together with the WAR file with JSP and HTML pages to run as the web appplication on the Tomcat application server. The last command will only be executed during the runtime when the Docker container is created from the Docker image 
 
 ## 3. Build and run your first Docker Image
 
