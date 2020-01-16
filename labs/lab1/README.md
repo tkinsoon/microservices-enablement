@@ -73,7 +73,7 @@ As you can see from the list, the **docker101** is created based on **tomcat** a
 
 Now, you are ready to run your Docker container
 ```
-sudo docker run -it --rm -p 8888:8080 docker101
+sudo docker run -it --rm -p 80:8080 docker101
 ```
 
 ### 4. Access to the Web Application
