@@ -34,7 +34,8 @@ gcloud compute instances create "jumpbox" \
   --image-family "ubuntu-1804-lts" \
   --image-project "ubuntu-os-cloud" \
   --boot-disk-size "200" \
-  --zone us-central1-a
+  --zone us-central1-a \
+  --tags http-server
 ```
 
 After some time, the **gcloud CLI** will output some information about the jumpbox that it created.
