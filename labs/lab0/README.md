@@ -50,7 +50,8 @@ The command to connect to your jumpbox will look something like the following sn
 ```
 gcloud compute ssh ubuntu@jumpbox
 ```
-**Note:** You NEED to provide some passphrase for the first time you SSH to your jumpbox 
+**Note:** You NEED to provide some passphrase for the first time you SSH to your jumpbox.
+
 Once the command completes and **you are now connected to the jumpbox**, continue with the following installation steps.
 
 ### Initialize the jumpbox for GCP
