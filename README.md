@@ -4,8 +4,7 @@ The Microservices Enablement Training Programme comes with the Lab Guide to give
 
 ## Lab 0 - Prerequisites
 
-This lab walks you through setting up a jumpbox in your GCP project. 
-We have created a GCP project with project ID for you and at this point, please ask.
+This lab walks you through setting up a jumpbox in your GCP project. You need to complete the setup of your jumpbox before you can move on to the next lab
 
 [Click here to setup your jumphost on GCP](./labs/lab0)
 
