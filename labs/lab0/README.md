@@ -26,7 +26,7 @@ project = piv-4a2da3f2-a1b1-c7bf0f621b15
 ```
 
 ## Section 2 - Setup your Jumpbox
-### Create the jumpbox
+### 2a. Create the jumpbox
 Run the following command to create a new jumpbox VM in your project.
 
 ```
@@ -43,7 +43,7 @@ For simplicity, regardless of your geographical region, you will use **us-centra
 
 The jumpbox needs a relatively large hard drive (200GB) so that in later labs you can use the space for storing backup data.
 
-### SSH into the jumpbox
+### 2b. SSH into the jumpbox
 You must now ssh to this new jumpbox using the zone you selected earlier. Notice you are logging in as the ubuntu user. There's nothing particularly special about this account. The account and its home directory are automatically generated upon first use and will serve as a shared resource for you and your pair.
 
 The command to connect to your jumpbox will look something like the following snippet. Run this in your current terminal session:
@@ -54,7 +54,7 @@ gcloud compute ssh ubuntu@jumpbox
 
 Once the command completes and **you are now connected to the jumpbox**, continue with the following installation steps.
 
-### Initialize the jumpbox for GCP
+### 2c. Initialize the jumpbox for GCP
 Once you are on the jumpbox, perform the following:
 ```
 gcloud config list
@@ -73,7 +73,7 @@ gcloud config list
 ```
 The ```gcloud compute instances list``` command will now produce a list of all the VMs in your project (i.e. just the jumpbox).
 
-### Create the Environment file
+### 2d. Create the Environment file
 In the ubuntu home directory on your jumpbox, create a hidden file named .env to store variables, the values of which describe your specific environment. Customize the .env file to suit your target environment before continuing.
 
 Take the template .env file below and substitute in the proper values for your GCP project:
@@ -100,7 +100,7 @@ Now that we have the .env file with our critical variables, we need to ensure th
 source ~/.env
 echo "source ~/.env" >> ~/.bashrc
 ```
-### Install tools
+### 2e. Install tools
 Our vanilla jumpbox does not come equipped with the tools we need.
 
 For now, install unzip and Jq. Both can be installed with the ubuntu package manager (apt):
@@ -110,7 +110,7 @@ sudo apt install unzip jq
 ```
 Additional commands will be installed in subsequent labs.
 
-### Download the Lab Files
+### 2f. Download the Lab Files
 ```
 git clone https://github.com/tkinsoon/microservices-enablement.git
 cd microservices-enablement
