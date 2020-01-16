@@ -13,13 +13,19 @@ You need to setup your jumpbox on GCP, if not please go to [Lab 0 - Prerequisite
 Setup the Docker repository:
 ```
 sudo apt-get update
+```
+```
 sudo apt-get install \
     apt-transport-https \
     ca-certificates \
     curl \
     gnupg-agent \
     software-properties-common
+```
+```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+```
 sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
@@ -28,7 +34,6 @@ sudo add-apt-repository \
 
 Install Docker Engine
 ```
-sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
